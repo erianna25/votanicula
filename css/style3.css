@@ -1,0 +1,53 @@
+body {
+  background-color: #333;
+}
+
+#snow {
+	background: none;
+	font-family: Androgyne;
+	background-image: url(../photos/sn2.png);
+	height: 599px;
+	width: 1184px;
+	z-index: 1;
+	-webkit-animation: snow 25s linear infinite;
+	-moz-animation: snow 25s linear infinite;
+	-ms-animation: snow 25s linear infinite;
+	animation: snow 25s linear infinite;
+	float: right;
+}
+
+@-webkit-keyframes snow {
+    100% { background-position: 0px 0px, 0px 0px, 0px 0px }
+    
+    0% {
+        background-position: 500px 1000px, 400px 400px, 300px 300px;
+      
+    }
+}
+@-moz-keyframes snow {
+    100% { background-position: 0px 0px, 0px 0px, 0px 0px }
+  
+    
+	0% {
+        background-position: 500px 1000px, 400px 400px, 300px 300px;
+       
+    }
+}
+@-ms-keyframes snow {
+    100% { background-position: 0px 0px, 0px 0px, 0px 0px }
+    
+   
+   0% {
+        background-position: 500px 1000px, 400px 400px, 300px 300px;
+        
+    }
+}
+@keyframes snow {
+    100% { background-position: 0px 0px, 0px 0px, 0px 0px }
+   
+   
+   0% {
+        background-position: 500px 1000px, 400px 400px, 300px 300px;
+       
+    }
+}

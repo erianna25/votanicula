@@ -1,0 +1,34 @@
+body {
+	background: #111f4e url(../img/backround.jpg) no-repeat;
+	margin:0;
+}
+
+body, table {
+font: 12px/normal Arial, sans-serif, Helvetica;
+}
+
+#mainpage {
+width: 1000px;
+margin: 20px auto 0px;
+
+}
+    
+#hmenu {
+float:left;
+margin:0;
+}
+
+
+#hmenu ul {
+list-style-type: none;
+margin: 0px;
+padding:0px;
+float:right;
+}
+
+#hmenu li {
+display:inline;
+margin: 0;
+padding: 0;
+}
+
